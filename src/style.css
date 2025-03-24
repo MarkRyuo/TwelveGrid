@@ -4,10 +4,17 @@
   display: grid;
   grid-auto-rows: 1fr;
   background-color: #333333;
+  justify-content: center;
+  color: #ffff;
 }
 
 .hero-section footer {
   align-self: end;
+}
+
+.hero-section .hero-welcome {
+  max-width: 500px;
+  align-self: center;
 }
 
 main {
