@@ -5,6 +5,9 @@
   grid-auto-rows: 1fr;
   background-color: #333333;
   justify-content: center;
+}
+
+.hero-section a, .hero-section .hero-welcome {
   color: #ffff;
 }
 
