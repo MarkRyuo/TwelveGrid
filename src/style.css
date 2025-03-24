@@ -5,10 +5,11 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
+  grid-column: ;
 }
 
 main {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1.2 fr repeat(2, 1fr);
   gap: 30px;
 }
