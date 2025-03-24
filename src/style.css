@@ -2,7 +2,9 @@
 
 .hero-section {
   background-image: url('../src/assets/images/Image0006.jpg');
-
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 main {
