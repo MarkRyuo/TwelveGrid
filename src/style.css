@@ -9,6 +9,10 @@
 main {
   display: grid;
   grid-template-columns: 1.2fr 1fr 1fr;
-  gap: 2px;
   min-height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
