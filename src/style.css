@@ -29,7 +29,7 @@ main {
 
 .card.cardOne {
   display: grid;
-  grid-template-rows: 500px 1fr;
+  grid-template-rows: 700px 1fr;
   overflow: hidden;
 }
 
@@ -40,6 +40,6 @@ main {
 
 .card.cardTwo {
   display: grid;
-  grid-template-rows: 1fr 500px;
+  grid-template-rows: 1fr 700px;
   overflow: hidden;
 }
