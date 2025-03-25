@@ -34,7 +34,7 @@ main {
   align-items: center;
 }
 
-.cardOne div:first-child {
+.cardOne div:nth-child(1) {
   max-width: 300px;
 }
 
