@@ -31,6 +31,7 @@ main {
   display: grid;
   grid-template-rows: 700px 1fr;
   overflow: hidden;
+  align-items: center;
 }
 
 .cardOne img, .cardTwo img {
