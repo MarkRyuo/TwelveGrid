@@ -35,6 +35,7 @@ main {
 }
 
 .cardTwo div:first-child {
+  max-width: 300px;
 }
 
 .cardOne img, .cardTwo img {
