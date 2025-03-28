@@ -14,9 +14,7 @@ main {
 
 main .col-1 {
   display: grid;
-  grid-auto-rows: 1fr;
   gap: 10px;
-
   background-color: #242323;
   color: #fff;
 }
@@ -74,7 +72,7 @@ main .col-3 {
 }
 
 
-.grid.col-2 {
+.grid {
   display: grid;
   grid-auto-rows: 1fr;
 }
