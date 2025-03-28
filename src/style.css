@@ -52,4 +52,9 @@ main footer {
 main .col-2 {
   display: grid;
   grid-template-rows: 600px 1fr;
+  gap: var(--space-md);
+}
+
+.col-2 div:nth-child(2) {
+  
 }
