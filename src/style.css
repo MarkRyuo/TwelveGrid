@@ -1,50 +1,13 @@
 
 
-.hero-section {
-  display: grid;
-  grid-auto-rows: 1fr;
-  background-color: #333333;
-  justify-content: center;
-}
-
-.hero-section a, .hero-section .hero-welcome {
-  color: #ffff;
-}
-
-.hero-section footer {
-  align-self: end;
-}
-
-.hero-section .hero-welcome {
-  max-width: 500px;
-  align-self: center;
-}
-
 main {
   display: grid;
   grid-template-columns: 1.2fr 1fr 1fr;
-  height: 100vh;
 }
 
-
-.card.cardOne {
+main .col-1 {
   display: grid;
-  grid-template-rows: 700px 1fr;
-  overflow: hidden;
-  align-items: center;
-}
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
 
-.cardOne div:nth-child(1) {
-  max-width: 300px;
-}
-
-.cardOne img, .cardTwo img {
-  min-height: 100%;
-  min-width: 100%;
-}
-
-.card.cardTwo {
-  display: grid;
-  grid-template-rows: 1fr 700px;
-  overflow: hidden;
 }
