@@ -82,4 +82,5 @@ main .col-3 {
 .col-3 div:nth-child(1) {
   padding: var(--space-md);
   align-self: center;
+
 }
