@@ -9,6 +9,7 @@ main {
   display: grid;
   grid-template-columns: 1.2fr 1fr 1fr;
   height: 100%;
+  max-height: 100%;
 }
 
 main .col-1 {
@@ -70,4 +71,10 @@ main .col-2 {
 main .col-3 {
   display: grid;
   grid-template-rows: 1fr 500px;
+}
+
+
+.grid.col-2 {
+  display: grid;
+  grid-auto-rows: 1fr;
 }
