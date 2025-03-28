@@ -10,4 +10,22 @@ main .col-1 {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
 
+  background-color: #242323;
+  color: #fff;
+}
+
+.col-1 nav {
+  padding: var(--space-md);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f72e2e;
 }
