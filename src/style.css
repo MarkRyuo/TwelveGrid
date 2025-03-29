@@ -77,10 +77,6 @@ main .col-3 {
 }
 
 
-.grid {
-  display: grid;
-  grid-auto-rows: 1fr;
-}
 
 
 .col-3 div:nth-child(1) {
@@ -107,12 +103,13 @@ main .col-3 {
 
   main {
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 400px 400px;
+    grid-template-rows: 1fr repeat(2, 500px);
   }
 
   main .col-2 {
     grid-column: span 2;
     grid-template-columns: 1fr 1fr;
+    height: 100%
   }
 
   main .col-3 {
