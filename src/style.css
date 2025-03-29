@@ -2,7 +2,7 @@
 
 
 main img {
-  min-width: 100%;
+  border-radius: 0px;
 }
 
 main {
@@ -17,6 +17,9 @@ main .col-1 {
   gap: 10px;
   background-color: #242323;
   color: #fff;
+
+  height: 100%;  /* Set the height to 100% to fill the parent */
+  min-height: 100vh; /* Set the minimum height to 100vh */
 }
 
 .col-1 nav {
@@ -45,6 +48,7 @@ main .welcome {
   max-width: 500px;
   justify-self: center;
   align-self: center;
+  padding: var(--space-md);
 }
 
 main footer {
@@ -83,3 +87,28 @@ main .col-3 {
   padding: var(--space-md);
   align-self: center;
 }
+
+
+
+@media screen and (max-width: 992px) {
+  main {
+    grid-template-columns: 1fr 1fr ;
+  }
+
+  main .col-3 {
+    grid-column: span 2;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  main {
+    grid-template-columns: 100%;
+  }
+
+}
+
+@media screen and (max-width: 576px) {}
