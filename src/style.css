@@ -109,7 +109,6 @@ main .col-3 {
   main .col-2 {
     grid-column: span 2;
     grid-template-columns: 1fr 1fr;
-    height: 100%
   }
 
   main .col-3 {
